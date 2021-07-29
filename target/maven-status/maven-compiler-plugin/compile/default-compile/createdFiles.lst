@@ -1,0 +1,4 @@
+testingUY\web\services\WikipediaService.class
+testingUY\web\reporters\CucumberReporter.class
+testingUY\web\steps\WikipediaSteps.class
+testingUY\web\constants\WikipediaConstants.class
