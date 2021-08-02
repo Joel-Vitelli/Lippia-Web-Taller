@@ -1,8 +1,0 @@
-{
-	"browserName": "chrome",
-	"goog:chromeOptions": {"args": ["disable-infobars", "--ignore-certificate-errors", "start-maximized"], 
-						   "extensions": [],
-						   "prefs": {"printing.enabled": false}
-	}, 
-	"platform": "ANY"
-} 
