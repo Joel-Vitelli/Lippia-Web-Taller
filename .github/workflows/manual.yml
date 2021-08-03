@@ -36,7 +36,7 @@ jobs:
 
       
     - name: Step 4 - Executing Automated Tests
-      run: mvn test -Pheadless -Pchrome -Pstaging2 -Dcucumber.filter.tags="@${{ github.event.inputs.tag }}" 
+      run: mvn test -Pheadless -Pchrome -Pstaging2 -Dcucumber.filter.tags="${{ github.event.inputs.tag }}" 
       
     - name: Step 5 - Generate Artifacts
       if: ${{ always() }}
