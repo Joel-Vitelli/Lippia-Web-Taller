@@ -29,8 +29,8 @@
 		<!-- cucumber options -->
 		<cucumber.stepsDefinitions>--glue / </cucumber.stepsDefinitions>
 		<cucumber.hooks>--glue	com/crowdar/bdd/cukes/hooks</cucumber.hooks>
-		<cucumber.tags>--tags '@Smoke'</cucumber.tags>
-		<cucumber.reporters>--plugin pretty --plugin testingUY.web.reporters.CucumberReporter:</cucumber.reporters>
+		<cucumber.tags>--tags '@Taller'</cucumber.tags>
+		<cucumber.reporters>--plugin pretty --plugin lippiaTaller.web.reporters.CucumberReporter:</cucumber.reporters>
 		<crowdar.cucumber.option>src/test/resources/web/features ${cucumber.hooks} ${cucumber.stepsDefinitions} --tags 'not @Ignore' ${cucumber.tags} ${cucumber.reporters}</crowdar.cucumber.option>
 
 		<!-- client project custom properties -->
