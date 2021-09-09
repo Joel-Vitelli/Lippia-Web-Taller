@@ -7,8 +7,8 @@
 		<version>3.2.3.8</version>
 	</parent>
 
-	<groupId>testingUY</groupId>
-	<artifactId>lippiaWebTestingUY</artifactId>
+	<groupId>lippiaTaller</groupId>
+	<artifactId>LippiaWebTaller</artifactId>
 	<version>1.0.0</version>
 	<name>crowdar_automation</name>
 
